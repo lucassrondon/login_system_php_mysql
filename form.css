@@ -1,0 +1,68 @@
+body {
+    background-color: gray;
+    color: brown;
+    }
+
+.submission-form{
+    max-width: 500px;
+    margin: 2rem auto;
+    border: 2px solid brown;
+    padding: 2rem;
+}
+
+label{
+    display: block;
+    color: white;
+}
+
+input{
+    display: block;
+    width: 100%;
+}
+
+#send_btn{
+    border: 1px solid white;
+    background: brown;
+    padding: .5rem;
+    color: white;
+    margin: 1rem 0;
+    width: auto;
+    cursor: pointer;
+}
+#send_btn:hover{
+    border: 1px solid white;
+    background: #3498DB;
+    padding: .5rem;
+    color: white;
+    margin: 1rem 0;
+    width: auto;
+}
+
+.logout_btn{
+    margin: 2rem auto;
+}
+
+.current_info{
+
+    max-width: 500px;
+    border: 2px solid brown;
+    padding:2rem;
+    margin:2rem auto;
+}
+
+.error_box{
+	text-decoration: none;
+	color:rgb(220, 18, 18);
+	font-size:15px;
+	line-height:15px;
+}
+
+.valid_box{
+	text-decoration: none;
+	color:rgb(28, 220, 18);
+	font-size:15px;
+	line-height:15px;
+}
+p{
+    color: white;
+}
